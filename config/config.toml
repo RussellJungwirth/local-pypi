@@ -1,0 +1,8 @@
+#  for this configuration:
+#  username=local-pypi (aka package repository name)
+#  password=some_password
+# url for web login http://localhost:8888/login/
+[local-pypi]
+type = "file_system"
+read_secret = "some_password"
+write_secret = "some_password"
